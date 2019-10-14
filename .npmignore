@@ -1,0 +1,5 @@
+/src
+/.mock
+log
+tsconfig.json
+/node_modules
