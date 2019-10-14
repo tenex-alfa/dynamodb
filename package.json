@@ -5,7 +5,7 @@
   "scripts": {
     "test": "tsc --watch > log & tx-test --path dist"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
     "@tenex/dynamoose-object": "^1.0.9",
     "@tenex/schema-validate": "^1.2.1",
