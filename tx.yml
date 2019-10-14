@@ -1,0 +1,27 @@
+# Here we can declare which resource template
+# Should be used in diffent selected types
+types:
+  # Serverless MIT provider
+  serverless: serverless.yml
+
+# Here we have the allowed templates to be inputted
+template:
+  body?: {}
+  intent: [get, put, update]
+  id?: String
+  date?: Boolean
+  query?: [String]
+
+mock:
+  service: my-mock-service
+  name: myTestDatabase
+  args:
+    - intent: update
+      id: my22Id
+    - body?:
+        te: [123]
+        yuo: 12388
+        id: 1233123
+        name: myNameIS
+      intent: [put, get, update]
+      id: String

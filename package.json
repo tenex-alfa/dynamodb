@@ -1,0 +1,21 @@
+{
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "@tenex/cloud-database",
+  "scripts": {
+    "test": "tsc --watch > log & tx-test --path dist"
+  },
+  "version": "0.0.2",
+  "devDependencies": {
+    "@tenex/dynamoose-object": "^1.0.9",
+    "@tenex/schema-validate": "^1.2.1",
+    "@tenex/serverless-env": "^1.1.1",
+    "@types/js-yaml": "^3.12.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.545.0",
+    "deepmerge": "^4.1.1",
+    "dynamobject": "0.0.2",
+    "js-yaml": "^3.13.1"
+  }
+}
